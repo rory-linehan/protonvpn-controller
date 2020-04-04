@@ -5,7 +5,7 @@ from distutils.core import setup
 
 setup(
     name='pypvpnctl',
-    packages=['pypvpnctl.py',],
+    packages=['pypvpnctl',],
     license='GNU GPL',
     long_description=open('README.md').read(),
 )
