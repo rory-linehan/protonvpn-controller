@@ -4,7 +4,7 @@
 from distutils.core import setup
 
 setup(
-    name='protonvpn-controller',
+    name='pypvpnctl',
     packages=['pypvpnctl.py',],
     license='GNU GPL',
     long_description=open('README.md').read(),
