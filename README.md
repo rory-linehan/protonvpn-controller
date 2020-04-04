@@ -1,6 +1,8 @@
 # Python ProtonVPN Controller
 
-Provides a Python interface for controlling the [ProtonVPN CLI](https://protonvpn.com/support/linux-vpn-tool/) client.
+Provides a Python interface for controlling the
+[ProtonVPN CLI](https://protonvpn.com/support/linux-vpn-tool/) client.
+This doesn't work on Windows natively because why would I bother with that?
 
 # Installation
 
