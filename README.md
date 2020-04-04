@@ -8,12 +8,6 @@ Provides a Python interface for controlling the [ProtonVPN CLI](https://protonvp
 
 # Usage
 
-`import pypvpnctl`
-
-`pypvpnctl.connect('us-tx-01', 'tcp')`
-
-`pypvpnctl.disconnect()`
-
 ```python
 import pypvpnctl
 import time
