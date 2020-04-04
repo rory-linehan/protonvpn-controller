@@ -17,8 +17,8 @@ for name in ['us-tx-01', 'us-tx-02', 'us-tx-03']:
     time.sleep(600)
     status, message, result = pypvpnctl.disconnect()
     if status is False:
-      print('failed to disconnect: ' + message)
+      print(message + ': ' + str(result.stdout))
   else:
-    print('failed to connect to ' + name)
+    print(message + ': ' + str(result.stdout))
     sys.exit(1)
 ```
