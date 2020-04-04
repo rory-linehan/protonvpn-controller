@@ -4,7 +4,7 @@ Provides a Python interface for controlling the [ProtonVPN CLI](https://protonvp
 
 # Installation
 
-`pip install git+https://github.com/rory-linehan/protonvpn-controller`
+`pip install git+https://github.com/rory-linehan/pypvpnctl`
 
 # Usage
 
